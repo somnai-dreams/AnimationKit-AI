@@ -2,7 +2,7 @@
 
 _Early Alpha Google Colab Notebook_
 
-1. [AnimationKit Colab Notebook](https://colab.research.google.com/github/Midgraph/AnimationKit-AI/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb) for Real-ESRGAN <a href="https://colab.research.google.com/github/sadnow/AnimationKit-AI_Upscaling-Interpolation_RIFE-RealESRGAN/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
+1. [AnimationKit Colab Notebook](https://colab.research.google.com/github/Midgraph/AnimationKit-AI/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb) for Real-ESRGAN <a href="https://colab.research.google.com/github/Midgraph/AnimationKit-AI/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
 
 Features Real-ESRGAN video upscaling, RIFE interpolation/motion smoothing, (improvised) deflickering, and FFMPEG hevc_nvenc (h265) compactor
 
