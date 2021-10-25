@@ -1,9 +1,8 @@
 # AnimationKit - AI Upscaling & Interpolation using Real-ESRGAN+RIFE
 
-*Early Alpha Google Colab Notebook*
+_Early Alpha Google Colab Notebook_
 
-1. [AnimationKit Colab Notebook](https://github.com/sadnow/RIFE-Google-Colab-Simplified/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb) for Real-ESRGAN <a href="https://colab.research.google.com/github/sadnow/AnimationKit-AI_Upscaling-Interpolation_RIFE-RealESRGAN/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
-
+1. [AnimationKit Colab Notebook](https://colab.research.google.com/github/Midgraph/AnimationKit-AI/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb) for Real-ESRGAN <a href="https://colab.research.google.com/github/sadnow/AnimationKit-AI_Upscaling-Interpolation_RIFE-RealESRGAN/blob/main/AnimationKit_Rife_RealESRGAN_Upscaling_Interpolation.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>.
 
 Features Real-ESRGAN video upscaling, RIFE interpolation/motion smoothing, (improvised) deflickering, and FFMPEG hevc_nvenc (h265) compactor
 
@@ -15,7 +14,7 @@ Feature additions
 - :white_check_mark: Upscaling from individual frames (P2)
 - :white_check_mark: Target length (in seconds) for RIFE interpolation - Replaces old length_multiplier option
 
-Credits: Motion smoothing conceived from "Zoom animation processing and motion interpolation" added by https://twitter.com/unltd_dream_co. This part of the script uses [RIFE real-time video interpolation](https://github.com/hzwer/arXiv2020-RIFE) to smooth out the resulting video. 
+Credits: Motion smoothing conceived from "Zoom animation processing and motion interpolation" added by https://twitter.com/unltd_dream_co. This part of the script uses [RIFE real-time video interpolation](https://github.com/hzwer/arXiv2020-RIFE) to smooth out the resulting video.
 
 Upscaling uses Real-ESRGAN (https://github.com/xinntao/Real-ESRGAN). A demo notebook for static images can be found here: https://colab.research.google.com/drive/1k2Zod6kSHEvraybHl50Lys0LerhyTMCo?usp=sharing. The demo was based on the following paper: of our paper [''Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data''](https://arxiv.org/abs/2107.10833).
 
@@ -35,6 +34,7 @@ Feature additions & bugfixes:
 ---
 
 Planned additions:
+
 - [ ] More deflicker options (am and pm deflicker flags may be optimal)
 - [ ] --skip option for RIFE
 - [ ] --tiles option for RIFE/Real-ESRGAN (?)
@@ -45,9 +45,8 @@ Planned additions:
 ---
 
 Difficulties (may take longer to figure out)
+
 - [ ] target output path for RIFE
 - [ ] target duration for RIFE (need to understand how exp works, then I'll just have it divide)
 
 Feel free to report bugs!
-
-
